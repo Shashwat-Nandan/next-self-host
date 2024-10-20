@@ -24,7 +24,7 @@ export default async function Home() {
       <p>
         This is a demo of a Next.js application hosted on Ubuntu Linux. It also
         includes a Postgres database and an Nginx proxy.{' '}
-        <a href="https://github.com/leerob/next-self-host">View the code</a>.
+        <a href="https://github.com/shashwat-nandan/next-self-host">View the code</a>.
       </p>
 
       <h3>Data Fetching</h3>
@@ -55,11 +55,11 @@ export default async function Home() {
       <p>
         You can also bring your own custom image loader, if you would prefer to
         use a different service. You can view an example{' '}
-        <a href="https://github.com/leerob/next-self-host/blob/main/image-loader.ts">
+        <a href="https://github.com/shashwat-nandan/next-self-host/blob/main/image-loader.ts">
           here
         </a>
         , which you can enable through{' '}
-        <a href="https://github.com/leerob/next-self-host/blob/main/next.config.ts">
+        <a href="https://github.com/shashwat-nandan/next-self-host/blob/main/next.config.ts">
           <code>next.config.ts</code>
         </a>
         .
@@ -93,7 +93,7 @@ export default async function Home() {
         own Docker container. It uses Drizzle for the ORM. There is also a cron
         job that resets the demo data every 10 minutes. You can manually hit the
         endpoint the cron uses by sending a <code>POST</code> to{' '}
-        <a href="https://nextselfhost.dev/db/clear">
+        <a href="https://app.codehodl.xyz/db/clear">
           <code>/db/clear</code>
         </a>
       </p>
