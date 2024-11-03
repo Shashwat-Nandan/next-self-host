@@ -186,26 +186,7 @@ export default async function Home() {
         </a>
       </p>
 
-      <h3>Environment Variables</h3>
-      <p>
-        Next.js supports loading environment variables from <code>.env</code>{' '}
-        files.
-      </p>
-      <p>
-        When reading values from a Server Component, you can ensure that the env
-        var is read dynamically every time. For container setups, a common use
-        case here is to provide different env vars per environment, with the
-        same Docker image.
-      </p>
-      <p>
-        This value was read from <code>process.env</code>:{' '}
-        <code>{secretKey}</code>
-      </p>
-      <p>
-        <a href="https://nextjs.org/docs/app/building-your-application/deploying#environment-variables">
-          Read the docs
-        </a>
-      </p>
+      
     </section>
   );
 }
